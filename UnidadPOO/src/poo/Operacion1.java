@@ -40,8 +40,8 @@ public class Operacion1 {
 		public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Operacion1 op = new Operacion1();
-		float n1 = Float.parseFloat(JOptionPane.showInputDialog("Numero 1: "));
-		float n2 = Float.parseFloat(JOptionPane.showInputDialog("Numero 2: "));
+		float n1 = Double.parseDouble(JOptionPane.showInputDialog("Numero 1: "));
+		float n2 = Double.parseDouble(JOptionPane.showInputDialog("Numero 2: "));
 		float s = op.sumar(n1,n2);
 		float r = op.restar(n1,n2);
 		float m = op.multiplicar(n1,n2);
