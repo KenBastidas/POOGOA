@@ -10,7 +10,7 @@ public class Trinaguloisoceles {
 		//de un trianuglo isoceles, previo ingreso de su base
 		//y de sus aldos iguales
 		double base, lados, h, b1, resultado;
-		base= Double.parseDouble(JOptionPane.showInputDialog("ingrese abse"));
+		base= Double.parseDouble(JOptionPane.showInputDialog("ingrese base"));
 		lados=Double.parseDouble(JOptionPane.showInputDialog("ingrese lago igual del triangulo isoceles"));
 		b1= base/2;
 		h= Math.sqrt(Math.pow(lados, 2)-Math.pow(b1, 2));
